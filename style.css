@@ -1,3 +1,45 @@
+/* body */
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
+/* common designs */
+.paragraph-size{
+    font-size: 16px;
+}
+.header-one{
+    font-size: 60px;
+    font-weight: bold;
+    margin: 0;
+}
+.header-two{
+    font-size: 40px;
+}
+
+.button{
+    text-decoration: none;
+    color: white;
+    padding: 10px 40px;
+    background-color: #FF5959;
+    border-radius: 8px;
+}
+
+
+/* header-section */
+.header-section{
+    text-align: center;
+    color: white;
+    padding: 13% 0;
+    background-image:
+    linear-gradient(to bottom, rgb(255, 255, 255,.1), rgba(0, 0, 0, 1)),
+    url('images/donation9.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.header-section p{
+    margin-bottom: 40px;
+    
+}
+
