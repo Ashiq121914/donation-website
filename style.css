@@ -11,12 +11,15 @@ body{
     font-size: 60px;
     font-weight: bold;
     margin: 0;
+    font-family: 'Inter', sans-serif;
 }
 .header-two{
     font-size: 40px;
+    font-family: 'Inter', sans-serif;
 }
 .header-three{
     font-size: 22px;
+    font-family: 'Inter', sans-serif;
 }
 
 .button{
@@ -47,6 +50,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
+    
 }
 
 .header-section p{
@@ -134,3 +138,68 @@ body{
 }
 
 
+/*Updates section */
+.update-section{
+    text-align: center;
+    margin: 100px 0;
+
+}
+.update-section p{
+    color: #707070;
+    margin-bottom: 60px;
+}
+.update-section input{
+    margin: 0;
+    border: none;
+}
+#update-email{
+    
+    color: #707070;
+    padding: 15px 160px;
+    background-color: #D9D9D9;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    font-size: 16px;
+    padding-left: 10px;
+    margin-right: -10px;
+
+
+}
+#update-submit-button{
+    color: white;
+    padding: 15px 40px;
+    background-color: #FF5959;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    font-size: 16px;
+}
+.update-section div{
+    
+    background-color: rgba(255, 244, 214, 1);
+    width: 65%;
+    padding: 100px 0;
+    margin:0 auto;
+    
+    
+    
+}
+
+
+/* footer section */
+.footer{
+    background-color: #0B0D17;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+.footer p{
+    margin: 0;
+    padding: 20px 0;
+    font-size: 12px;
+}
+.footer h2{
+    color: #FF5959;
+    margin: 5px 0;
+    font-size: 32px;
+    font-family: 'Lobster', cursive;
+}
