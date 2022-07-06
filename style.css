@@ -138,6 +138,32 @@ body{
 }
 
 
+/* latest news  section */
+.latest-news{
+    width: 80%;
+    margin: 40px auto;
+    padding: 40px 40px;
+    background-color: rgba(232, 229, 222,.6);
+}
+.latest-news h2{
+    text-align: left;
+    font-size: 30px;
+}
+.latest-news p{
+    text-align: left;
+    color: #707070;
+}
+#align-center{
+    text-align: center;
+    margin-bottom: 90px;
+    font-size: 40px;
+}
+.latest-news img{
+    width: 400px;
+    margin-right: 30px;
+}
+
+
 /*Updates section */
 .update-section{
     text-align: center;
